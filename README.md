@@ -27,11 +27,11 @@ Anaerobic digestion (AD) is a complex bioprocess driven by intricate microbial c
 
 ```text
 ├── data/
-│   ├── raw_counts/          # 16S rRNA and metagenomic count tables
+│   ├── raw_counts/          # Metagenomic count tables
 │   ├── metabolomics/        # LC-MS/MS untargeted profiling data
 │   └── taxonomy/            # GTDB-Tk classification results
 ├── models/
-│   ├── gems_individual/     # Individual GEMs (SBML/JSON) reconstructed via ModelSEED
+│   ├── gems_individual/     # Individual GEMs (SBML) reconstructed via ModelSEED
 │   └── community_models/    # MICOM community models for Bovine and WTP inocula
 ├── scripts/
 │   ├── reconstruction/      # Python scripts for genome mapping and model building
