@@ -1,6 +1,3 @@
-# Community-scale-metabolic-modelling-in-AD
-Hybrid metagenomic–reference genome approach for community-scale metabolic modelling in anaerobic co-digestion
-
 # Hybrid Metagenomic-Reference Genome Approach for Community-Scale Metabolic Modelling in Anaerobic Co-Digestion
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
