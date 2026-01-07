@@ -39,3 +39,30 @@ Anaerobic digestion (AD) is a complex bioprocess driven by intricate microbial c
 └── results/
     ├── flux_distributions/  # Predicted metabolic fluxes (csv)
     └── growth_rates/        # Inferenced microbial growth rates
+
+## 🔬 Scientific Methodology
+
+The workflow is divided into three core stages, employing a **hybrid genomic framework** to overcome assembly limitations:
+
+1.  **Genomic Integration**
+    * **Sampling:** Sequencing of distinct inocula from Bovine Manure (Cow) and Wastewater Treatment Plant (WTP) sludge.
+    * **Substrates:** Co-digestion matrices including food waste, poultry manure, and swine manure.
+    * **Hybrid Mapping:** Reads were mapped to both **Metagenome-Assembled Genomes (MAGs)** and the **RefSeq database** to capture low-abundance lineages often lost in standard assembly.
+
+2.  **Metabolic Reconstruction & Curation**
+    * Draft genome-scale models (GEMs) were generated using **ModelSEED**.
+    * **Critical Curation Step:** Integration of experimental metabolomic data (LC-MS/MS) to unlock "dormant" reactions. Prior to this **metabolomics-guided gapfilling**, pathways for methanogenesis and butyrate production were often incomplete due to assembly fragmentation.
+
+3.  **Community Simulation**
+    * Construction of supranational community models using **MICOM**.
+    * **Ecological Dynamics:** Simulation of succession from early-stage fermentative guilds to late-stage syntrophic and methanogenic networks.
+
+## 📊 Key Findings
+
+Our modelling approach revealed critical biological insights into the Anaerobic Digestion (AD) "black box":
+
+* **Restoration of Methanogenesis:** The hybrid approach successfully reconstructed complete methanogenesis pathways (both **hydrogenotrophic** and **acetoclastic**) that were incomplete or absent in MAG-only approaches.
+* **Ecological Succession:** The models quantitatively reproduced the observed transition from *Bacteroidaceae* dominance (acidogenesis) to the establishment of *Methanobacteriaceae* and *Anaerolineaceae* (methanogenesis).
+* **System Divergence:**
+    * **Bovine Inoculum:** Exhibited highly efficient acetate consumption coupled with robust hydrogenotrophic methanogenesis.
+    * **WTP Inoculum:** Showed a tendency towards **acetate accumulation**, suggesting rate-limiting acetoclastic activity under high organic loads.
