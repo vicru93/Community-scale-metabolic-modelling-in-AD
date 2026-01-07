@@ -46,7 +46,7 @@ Anaerobic digestion (AD) is a complex bioprocess driven by intricate microbial c
 The workflow is divided into three core stages, employing a **hybrid genomic framework** to overcome assembly limitations:
 
 1.  **Genomic Integration**
-    * **Sampling:** Sequencing of distinct inocula from Bovine Manure (Cow) and Wastewater Treatment Plant (WTP) sludge.
+    * **Sampling:** Sequencing of distinct inocula from Bovine Manure (BM) and Wastewater Treatment Plant (WTP) sludge.
     * **Substrates:** Co-digestion matrices including food waste, poultry manure, and swine manure.
     * **Hybrid Mapping:** Reads were mapped to both **Metagenome-Assembled Genomes (MAGs)** and the **RefSeq database** to capture low-abundance lineages often lost in standard assembly.
 
