@@ -1,7 +1,6 @@
 # Hybrid Metagenomic-Reference Genome Approach for Community-Scale Metabolic Modelling in Anaerobic Co-Digestion
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![R](https://img.shields.io/badge/R-4.0%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Study Type](https://img.shields.io/badge/Study-In_Silico_&_Metabolomics-orange)
 
