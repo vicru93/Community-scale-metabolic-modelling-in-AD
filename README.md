@@ -39,6 +39,7 @@ Anaerobic digestion (AD) is a complex bioprocess driven by intricate microbial c
 └── results/
     ├── flux_distributions/  # Predicted metabolic fluxes (csv)
     └── growth_rates/        # Inferenced microbial growth rates
+```
 
 ## 🔬 Scientific Methodology
 
