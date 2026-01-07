@@ -10,7 +10,7 @@ Hybrid metagenomic–reference genome approach for community-scale metabolic mod
 
 ## 🧬 Graphical Abstract
 
-![Graphical Abstract](docs/YOUR_IMAGE_NAME.png)
+![Graphical Abstract](docs/Infografia.png)
 
 ## 📝 Project Overview
 
